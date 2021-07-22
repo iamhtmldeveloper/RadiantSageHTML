@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+:hover {
+    transition: 0.4s all ease;
+    text-decoration: none !important;
+}
+
+/* start */
+section {
+    height: 100vh;
+}
+
+.home-clinical h1 {
+    text-align: left;
+    font: normal normal normal 140px/129px Merriweather;
+    letter-spacing: 0px;
+    color: #0F0F0F;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.home-clinical p {
+    text-align: left;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.7px;
+    color: #484848;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+/* end */
+
+/* start */
+.home-radiant {
+    background: #FAFAFA;
+    padding: 193px 0 0 0;
+    overflow: hidden;
+    border-top: 13px solid #3873E2;
+}
+
+.home-radiant h2 {
+    text-align: left;
+    font: normal normal normal 68px/64px Merriweather;
+    letter-spacing: 0px;
+    color: #032427;
+    opacity: 1;
+}
+
+.home-radiant p {
+    text-align: left;
+    font: normal normal normal 18px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #505050;
+    opacity: 1;
+    margin: 20px 0;
+}
+
+.home-radiant .cube-shape {
+    position: absolute;
+    left: 0;
+    transform: translate(-60%, -53%);
+}
+
+.home-radiant .play-movie {
+    border: 2px solid #002F34;
+    border-radius: 40px;
+    width: 219px;
+    text-align: left;
+    font: normal normal normal 12px/40px Montserrat;
+    letter-spacing: 1.2px;
+    color: #002F34;
+    text-transform: uppercase;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+}
+
+.home-radiant .play-movie::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 17px;
+    border-color: transparent transparent transparent #002F34;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.home-radiant .big-cube {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(33%, -28%);
+}
+
+/* end */
+
+/* start */
+.home-connect {
+    background: url('../images/bg-corevalues.png');
+    padding: 193px 0 0 0;
+    overflow: hidden;
+}
+
+.home-connect h3 {
+    text-align: left;
+    font: normal normal 300 60px/78px Merriweather;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.93;
+}
+
+/* end */
+
+/* start  */
+.our-services {}
+
+.our-services h4 {
+    margin: 44px 0 70px 0;
+    border-top: 7px solid #D76682;
+    text-align: left;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: #D76682;
+    opacity: 1;
+}
+
+.our-services .services-list li a {
+    text-align: left;
+    font: normal normal normal 90px/138px Merriweather;
+    letter-spacing: -0.9px;
+    color: #2F2F2F;
+    opacity: 1;
+    border-bottom: 2px solid #3873E2;
+    display: flex;
+}
+
+/* end  */
+
+/* start */
+.feedback {
+    background: url('../images/testimonial_bg.png');
+    padding: 193px 0 0 0;
+    overflow: hidden;
+}
+
+.feedback .feedback-section {
+    background: #3873E2 0% 0% no-repeat padding-box;
+    box-shadow: inset 15px 15px 0px #00000014,
+        10px 9px 0px #A1B5B784;
+    opacity: 1;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.feedback .feedback-section .feed-para {
+    text-align: left;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 22x;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.feed-name-section {
+    display: flex;
+}
+
+.feed-name-section img {
+    width: 31px;
+    height: 31px;
+}
+
+.feed-name-section p {
+    text-align: left;
+    font: normal normal normal 30px/32px Tinos;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.feed-name-section span {
+    text-align: left;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+/* end */

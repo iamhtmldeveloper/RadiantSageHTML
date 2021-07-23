@@ -1,14 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
 p,
-ul {
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     padding: 0;
+}
+
+p {
+    margin-bottom: 0;
 }
 
 ul {
@@ -20,9 +31,18 @@ ul {
     text-decoration: none !important;
 }
 
+.margin-top-30px {
+    margin-top: 30px;
+}
+
+.margin-top-70px {
+    margin-top: 70px;
+}
+
 /* start */
 section {
-    height: 100vh;
+    height: 100%;
+    overflow: hidden;
 }
 
 .home-clinical h1 {
@@ -167,7 +187,7 @@ section {
 /* start */
 .feedback {
     background: url('../images/testimonial_bg.png');
-    padding: 193px 0 0 0;
+    padding: 193px 0;
     overflow: hidden;
 }
 
@@ -176,33 +196,45 @@ section {
     box-shadow: inset 15px 15px 0px #00000014,
         10px 9px 0px #A1B5B784;
     opacity: 1;
-    padding: 25px;
+    padding: 25px 25px 80px;
     border-radius: 20px;
+    position: relative;
 }
 
 .feedback .feedback-section .feed-para {
     text-align: left;
     font-family: 'Montserrat',
         sans-serif;
-    font-size: 22x;
-    line-height: 28px;
+    font-size: 18px;
+    /* font-size: 22px; */
+    line-height: 22px;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
+    margin: 0 0 25px 0;
 }
 
 .feed-name-section {
     display: flex;
+    position: absolute;
+    bottom: 20px;
 }
 
-.feed-name-section img {
-    width: 31px;
-    height: 31px;
+.feed-name-section .feed-cube {
+    width: 45px;
+    height: 45px;
+    margin: 0 15px 0 0;
+}
+
+.feedback-section .feed-image {
+    position: absolute;
+    right: 20px;
+    bottom: -40px;
 }
 
 .feed-name-section p {
     text-align: left;
-    font: normal normal normal 30px/32px Tinos;
+    font: normal normal normal 25px/25px Tinos;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
@@ -213,10 +245,333 @@ section {
     font-family: 'Montserrat',
         sans-serif;
     font-size: 14px;
-    line-height: 32px;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
+}
+
+.feed-clients {
+    text-align: left;
+    font: normal normal normal 28px/40px Tinos;
+    letter-spacing: 0px;
+    color: #2E5255;
+    opacity: 1;
+    margin: 15px 0 0 0;
+}
+
+.feed-height {
+    min-height: 350px;
+}
+
+.feedback h5 {
+    text-align: left;
+    font: normal normal normal 130px/40px Merriweather;
+    letter-spacing: -2.6px;
+    color: #D55977;
+    opacity: 1;
+    transform: rotate(90deg) translate(-160%, -70px);
+}
+
+
+/* end */
+
+/* start */
+.home-responsibilty {
+    margin: 75px 0;
+    position: relative;
+}
+
+.respo-caption {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.respo-caption p {
+    font: normal normal normal 64px/70px Merriweather;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.respo-caption a {
+    color: #fff;
+}
+
+/* end */
+
+/* start */
+.review-latest {
+    background: #EBEBEB;
+    padding: 50px 0;
+}
+
+.review-latest h6 {
+    text-align: left;
+    font: normal normal normal 100px/125px Merriweather;
+    letter-spacing: 0px;
+    color: #C9516F;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.review-latest h5 {
+    text-align: left;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0px;
+    color: #6A6A6A;
+    opacity: 1;
+    margin: 0 0 30px 0;
+}
+
+.review-latest ul li {
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+}
+
+.review-latest ul li .review-caption {
+    padding: 25px;
+    position: absolute;
+    top: 0;
+    left: -338px;
+    height: 100%;
+    background: #EBEBEB;
+    width: 100%;
+    transition: 0.4s ease all;
+}
+
+.review-latest ul li:hover .review-caption {
+    left: 0;
+}
+
+.review-latest ul li .review-caption img {
+    width: 23px;
+    height: 23px;
+    margin: 20px 0 15px 0;
+}
+
+.review-latest ul li .review-caption .review-title {
+    text-align: left;
+    font: normal normal normal 30px/30px Merriweather;
+    letter-spacing: -1.5px;
+    color: #2C79C3;
+    opacity: 1;
+}
+
+.review-latest ul li .review-caption .review-para {
+    text-align: left;
+    font: normal normal normal 15px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #2C79C3;
+    opacity: 1;
+}
+
+
+/* end */
+
+/* start */
+.home-career {
+    padding: 90px 0;
+}
+
+.home-career .career-section {
+    position: relative;
+}
+
+.home-career .career-section {
+    position: relative;
+}
+
+.home-career .career-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 30px;
+}
+
+.home-career .career-caption .career-title {
+    text-align: left;
+    font: normal normal normal 55px/66px Merriweather;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: 0 0 20px 0;
+}
+
+.home-career .career-caption .career-para {
+    text-align: left;
+    font-family: 'Montserrat',
+        sans-serif;
+    font: normal normal normal 20px/26px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.home-career .career-caption .career-join {
+    background: #EBEEEF 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 12px/34px Montserrat;
+    letter-spacing: 0px;
+    color: #002F34;
+    text-transform: uppercase;
+    width: 170px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+
+/* end */
+
+/* start */
+.review-lproducts {
+    padding: 90px 0;
+}
+
+.review-lproducts h6 {
+    text-align: center;
+    font: normal normal normal 46px/58px Merriweather;
+    letter-spacing: -0.46px;
+    color: #D76682;
+    opacity: 1;
+}
+
+.lproducts-section {
+    position: relative;
+    margin: 30px 0 0 0;
+    overflow: hidden;
+}
+
+.lproducts-section .lproducts-caption {
+    background: rgba(56, 115, 226, 0.77) 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    left: -350px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    transition: 0.4s ease all;
+}
+
+.lproducts-section:hover .lproducts-caption {
+    left: 0;
+}
+
+.lproducts-section .lproducts-caption .lproducts-title {
+    text-align: left;
+    font: normal normal normal 34px/38px Merriweather;
+    letter-spacing: -0.34px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: 0 0 20px 0;
+}
+
+.lproducts-section .lproducts-caption .lproducts-para {
+    text-align: left;
+    font: normal normal normal 14px/17px Lexend;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/* end */
+
+/* start */
+.connect-withus {
+    background: url("../images/connect_bg.png") repeat;
+    padding: 90px 0;
+}
+
+.connect-withus h6 {
+    text-align: left;
+    font: normal normal normal 100px/138px Merriweather;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.connect-form .form-control {
+    text-align: left;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    background: transparent;
+    padding: 30px 20px;
+}
+
+.connect-form .form-control::-webkit-input-placeholder {
+    /* Edge */
+    color: #FFFFFF;
+}
+
+.connect-form .form-control:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #FFFFFF;
+}
+
+.connect-form .form-control::placeholder {
+    color: #FFFFFF;
+}
+
+.connect-form .input-group-append {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+
+.connect-form .input-group-append button {
+    text-align: left;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    padding: 0 25px;
+}
+
+.connect-withus a {
+    text-align: left;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* end */

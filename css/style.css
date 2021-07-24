@@ -46,14 +46,17 @@ section {
 }
 
 .home-clinical {
-    background: url('../images/home-bg.png') no-repeat;
+    background: url(../images/home-bg.png) no-repeat;
     min-height: 789px;
     position: relative;
+    background-size: 95%;
+    background-position: right -35px;
 }
 
 .home-clinical .logo {
     position: absolute;
     bottom: 0;
+    right: 64px;
 }
 
 .home-clinical h1 {
@@ -77,6 +80,33 @@ section {
     color: #484848;
     text-transform: uppercase;
     opacity: 1;
+}
+
+.home-clinical .home-scroll {
+    writing-mode: vertical-rl;
+    position: absolute;
+    right: -50px;
+    bottom: -25%;
+}
+
+.home-clinical .home-scroll a {
+    text-align: left;
+    font: normal normal medium 14px/130px Lexend;
+    letter-spacing: 0.7px;
+    color: #0F0F0F;
+    text-transform: uppercase;
+    opacity: 1;
+    position: relative;
+    padding: 0 0 0 18px;
+}
+
+.home-clinical .home-scroll a:before {
+    content: '';
+    background: url(../images/scroll-icon.png) no-repeat;
+    width: 15px;
+    height: 66px;
+    position: absolute;
+    left: 0;
 }
 
 /* end */
@@ -167,6 +197,59 @@ section {
     opacity: 0.93;
 }
 
+.home-connect .home-numbers {
+    margin: 50px 0 0 0;
+    justify-content: space-between;
+}
+
+.home-connect .percentage {
+    position: relative;
+    padding: 0 60px 0 0;
+}
+
+.home-connect .percentage::after {
+    content: '%';
+    position: absolute;
+    right: 0;
+}
+
+.counter {
+    /* transition: 0.4s ease all; */
+}
+
+.home-connect .home-numbers li {
+    width: calc(100% / 3);
+    display: flex;
+
+}
+
+.home-connect .home-numbers li p {
+    text-align: center;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 50px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 100%;
+}
+
+.home-connect .home-numbers li span {
+    text-align: center;
+    font: normal normal normal 14px/46px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 100%;
+}
+
+.home-connect .home-numsection {
+    text-align: left;
+    margin: 0 0 0 25px;
+}
+
 /* end */
 
 /* start  */
@@ -186,6 +269,10 @@ section {
     opacity: 1;
 }
 
+.our-services .services-list {
+    margin: 0 0 70px 0;
+}
+
 .our-services .services-list li a {
     text-align: left;
     font: normal normal normal 90px/138px Merriweather;
@@ -194,6 +281,11 @@ section {
     opacity: 1;
     border-bottom: 2px solid #3873E2;
     display: flex;
+    transition: 0.4s ease all;
+}
+
+.our-services .services-list li a:hover {
+    color: #3873E2;
 }
 
 /* end  */
@@ -210,10 +302,12 @@ section {
     box-shadow: inset 15px 15px 0px #00000014,
         10px 9px 0px #A1B5B784;
     opacity: 1;
-    padding: 25px 25px 80px;
+    padding: 35px 35px 80px;
     border-radius: 20px;
     position: relative;
 }
+
+.feedback .feedback-section .feedback-skew {}
 
 .feedback .feedback-section .feed-para {
     text-align: left;
@@ -242,8 +336,10 @@ section {
 
 .feedback-section .feed-image {
     position: absolute;
-    right: 20px;
+    right: 25px;
     bottom: -40px;
+    width: 111px;
+    height: 111px;
 }
 
 .feed-name-section p {
@@ -274,7 +370,7 @@ section {
 }
 
 .feed-height {
-    min-height: 350px;
+    min-height: 400px;
 }
 
 .feedback h5 {
@@ -416,12 +512,11 @@ section {
 
 .home-career .career-caption .career-title {
     text-align: left;
-    font: normal normal normal 55px/66px Merriweather;
+    font: normal normal normal 60px/66px Merriweather;
     letter-spacing: 0px;
     color: #FFFFFF;
     text-transform: uppercase;
     opacity: 1;
-    margin: 0 0 20px 0;
 }
 
 .home-career .career-caption .career-para {
@@ -514,8 +609,11 @@ section {
 
 /* start */
 .connect-withus {
-    background: url("../images/connect_bg.png") repeat;
-    padding: 90px 0;
+    background: url(../images/connect_bg.png) repeat;
+    min-height: 476px;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
 }
 
 .connect-withus h6 {
@@ -558,6 +656,7 @@ section {
     right: 0;
     top: 0;
     height: 100%;
+    z-index: 10;
 }
 
 .connect-form .input-group-append button {
@@ -592,7 +691,7 @@ section {
 
 /* start */
 footer {
-    padding: 90px 0 20px;
+    padding: 50px 0 0;
 }
 
 footer address {
@@ -634,15 +733,15 @@ footer .address-contact li a {
     opacity: 1;
 }
 
-footer .footer-social li.femail,
-footer .footer-social li.fphone {
+footer li.femail,
+footer li.fphone {
     position: relative;
     padding: 0 0 0 45px;
 }
 
-footer .footer-social li.femail::before,
-footer .footer-social li.fphone::before {
-    content: '';
+footer li.femail::before,
+footer li.fphone::before {
+    content: 'Hi';
     position: absolute;
     left: 0;
     top: -3px;
@@ -650,18 +749,20 @@ footer .footer-social li.fphone::before {
     width: 30px;
 }
 
-footer .footer-social li.femail::before {
+footer li.femail::before {
+    content: '';
     background: url('../images/social-icons/icon_email.svg') no-repeat;
 }
 
-footer .footer-social li.fphone::before {
+footer li.fphone::before {
+    content: '';
     background: url('../images/social-icons/icon_cell.svg') no-repeat;
 }
 
 .footer-social {
     border-top: 1px solid #DDDDDD;
     margin: 40px 0 0;
-    padding: 20px 0;
+    padding: 20px 0 0;
 }
 
 .footer-social ul {

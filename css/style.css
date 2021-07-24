@@ -61,12 +61,25 @@ section {
 
 .home-clinical h1 {
     text-align: left;
-    font: normal normal normal 120px/129px Merriweather;
+    font: normal normal normal 140px/129px Merriweather;
     letter-spacing: 0px;
     color: #0F0F0F;
     text-transform: uppercase;
     opacity: 1;
-    margin: 150px 0 0 0;
+    margin-top: 130px;
+    position: relative;
+}
+
+.home-clinical h1 span {
+    text-align: left;
+    font: normal normal bold 28px/130px Merriweather;
+    letter-spacing: 0px;
+    color: #0F0F0F;
+    text-shadow: 0px 0px 55px #00000029;
+    text-transform: uppercase;
+    opacity: 1;
+    transform: translate(0px, 30px);
+    position: absolute;
 }
 
 .home-clinical p {
@@ -80,6 +93,7 @@ section {
     color: #484848;
     text-transform: uppercase;
     opacity: 1;
+    margin: 20px 0 0 0;
 }
 
 .home-clinical .home-scroll {
@@ -411,6 +425,12 @@ section {
 
 .respo-caption a {
     color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
 /* end */
@@ -512,7 +532,7 @@ section {
 
 .home-career .career-caption .career-title {
     text-align: left;
-    font: normal normal normal 60px/66px Merriweather;
+    font: normal normal normal 50px/60px Merriweather;
     letter-spacing: 0px;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -523,7 +543,8 @@ section {
     text-align: left;
     font-family: 'Montserrat',
         sans-serif;
-    font: normal normal normal 20px/26px;
+    font-size: 18px;
+    list-style: 26px;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
@@ -555,7 +576,7 @@ section {
 
 .review-lproducts h6 {
     text-align: center;
-    font: normal normal normal 46px/45px Merriweather;
+    font: normal normal normal 46px/58px Merriweather;
     letter-spacing: -0.46px;
     color: #D76682;
     opacity: 1;
@@ -691,7 +712,7 @@ section {
 
 /* start */
 footer {
-    padding: 50px 0 0;
+    padding-top: 60px;
 }
 
 footer address {
@@ -761,8 +782,8 @@ footer li.fphone::before {
 
 .footer-social {
     border-top: 1px solid #DDDDDD;
-    margin: 40px 0 0;
-    padding: 20px 0 0;
+    margin: 60px 0 0;
+    padding: 20px 0 20px;
 }
 
 .footer-social ul {
@@ -774,3 +795,400 @@ footer li.fphone::before {
 }
 
 /* end */
+
+/* start about us */
+.aboutus-home {
+    background: url(../images/aboutus/bg-image.png) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.aboutus-home h1 {
+    text-align: left;
+    font: normal normal normal 102px/64px Merriweather;
+    letter-spacing: 0px;
+    color: #032427;
+    opacity: 1;
+    margin: 0 0 50px 0;
+}
+
+.aboutus-home .about-para {
+    text-align: left;
+    font: normal normal normal 34px/42px Merriweather;
+    letter-spacing: -0.34px;
+    color: #3873E2;
+    opacity: 1;
+    margin: 0 0 30px 0;
+}
+
+.aboutus-home p {
+    text-align: left;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0px;
+    color: #505050;
+    opacity: 1;
+    margin: 15px 0;
+}
+
+/* start */
+.aboutus-core {
+    padding: 90px 0;
+}
+
+.aboutus-core h3 {
+    text-align: left;
+    font: normal normal normal 46px/78px Merriweather;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.93;
+    text-align: center;
+}
+
+.aboutus-core .sub-para {
+    text-align: center;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #818181;
+    opacity: 1;
+}
+
+.aboutus-core-section {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 25px #0000001C;
+    border-radius: 10px;
+    opacity: 1;
+    text-align: center;
+    padding-top: 68px;
+    padding-bottom: 68px;
+    margin: 30px 0 0 0;
+    border: 1px solid transparent;
+    /* #3873e2 */
+
+}
+
+.aboutus-core-section:hover {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 25px #0000001C;
+    border: 1px solid #3873E2;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.aboutus-core-section:hover p {
+    color: #3873E2;
+}
+
+.aboutus-core-section:hover svg {
+    fill: #3873E2 !important;
+}
+
+.aboutus-core-section p {
+    text-align: center;
+    font: normal normal normal 25px/24px Merriweather;
+    letter-spacing: 0px;
+    color: #505050;
+    opacity: 1;
+}
+
+.about-ourmission {}
+
+.mission-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 75%;
+    margin: 0 auto;
+}
+
+.mission-caption span {
+    text-align: left;
+    font: normal normal normal 18px/25px Merriweather;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 0 0 15px 0;
+    display: flex;
+
+}
+
+.mission-caption p {
+    text-align: left;
+    font: normal normal normal 48px/60px Merriweather;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.about-core {
+    padding: 60px 0;
+}
+
+.about-core .our-list {
+    border-top: 2px solid #3873E2;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.about-core .our-list:last-child {
+    border-bottom: 2px solid #3873E2;
+}
+
+.about-core .our-list-title {}
+
+.about-core .our-list-title h3 {
+    text-align: left;
+    font: normal normal normal 46px/50px Merriweather;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.about-core .our-list-para {
+    width: 60%;
+}
+
+.about-core .our-list-para p {
+    text-align: left;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #555555;
+    opacity: 1;
+    margin-bottom: 15px;
+}
+
+/* end */
+
+/* start */
+.radiant-sage {
+    padding-bottom: 60px;
+}
+
+.radiant-sage .radiant-sage-section {
+    display: flex;
+}
+
+.radiant-sage .radiant-sage-left {
+    background: #3873E2 0% 0% no-repeat padding-box;
+    border-radius: 14px;
+    padding: 40px;
+    width: 45%;
+    position: relative;
+}
+
+.radiant-sage .radiant-sage-left h4 {
+    text-align: left;
+    font: normal normal bold 34px/40px Merriweather;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.radiant-sage .radiant-sage-left p {
+    text-align: left;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 15px 0;
+}
+
+.radiant-sage .radiant-sage-right {
+    display: flex;
+    align-items: center;
+}
+
+.radiant-sage .radiant-sage-right img {
+    position: absolute;
+    right: 0;
+    width: 65% !important;
+    z-index: -1;
+}
+
+/* end */
+
+/* start */
+.our-history {
+    background: url('../images/aboutus/our-story-bg.png') repeat;
+    padding: 90px 0;
+}
+
+.our-history h3 {
+    text-align: center;
+    font: normal normal normal 46px/35px Merriweather;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 0 0 40px 0;
+}
+
+.history-section {
+    position: relative;
+}
+
+.history-section::before {
+    content: '';
+    background: #D76682;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.history-right,
+.history-left {
+    background: #3873E2 0% 0% no-repeat padding-box;
+    box-shadow: inset 15px 15px 0px #00000014,
+        10px 9px 0px #a1b5b784;
+    opacity: 1;
+    border-radius: 10px;
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    position: relative;
+}
+
+.history-right h6,
+.history-left h6 {
+    text-align: left;
+    font: normal normal bold 28px/35px Merriweather;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 0 0 15px 0;
+}
+
+.history-right p,
+.history-left p {
+    text-align: left;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.history-left.left {
+    left: 0;
+}
+
+.history-left.left h6,
+.history-left.left p {
+    text-align: right;
+}
+
+.history-right.right {
+    left: 54%;
+}
+
+.history-right.right::before {
+    content: '';
+    background: #D76682;
+    height: 3px;
+    width: 16px;
+    position: absolute;
+    left: -43px;
+    top: 50%;
+    transform: translate(0%, 50%);
+}
+
+.history-left.left::before {
+    content: '';
+    background: #D76682;
+    height: 3px;
+    width: 16px;
+    position: absolute;
+    right: -43px;
+    top: 50%;
+    transform: translate(0%, 50%);
+}
+
+/* end */
+
+/* start */
+.management-team {
+    padding: 90px 0;
+}
+
+.management-team h5 {
+    text-align: center;
+    font: normal normal normal 46px/25px Merriweather;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 0 0 30px 0;
+}
+
+.team-section {
+    display: flex;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 25px #00000014;
+    border-radius: 10px;
+    opacity: 1;
+    justify-content: space-between;
+    margin: 30px 0 0 0;
+}
+
+.team-section .team-details {
+    border-right: 1px solid #DEDEDE;
+    padding: 0 40px 0 0;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    justify-content: center;
+    width: 60%;
+}
+
+.team-section .team-details .team-name {
+    text-align: left;
+    font: normal normal bold 30px/25px Merriweather;
+    letter-spacing: 0px;
+    color: #0D0C0C;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: 0 0 15px 0;
+}
+
+.team-section .team-details .team-desgn {
+    text-align: left;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.team-section .team-social {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    width: 100px;
+}
+
+/* end */
+
+
+/* end about us */

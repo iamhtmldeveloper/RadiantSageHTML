@@ -7,9 +7,9 @@
                 <img class="logo" src="images/logo.png">
             </div>
             <div class="col-md-8">
-                <h1>Clinical Imaging Trials</h1>
-                <p>Radiant Sage’s solutions exemplify how IT can be leveraged in clinical imaging trials to enable
-                    the smooth acquisition, processing and delivery of information on a timely basis.</p>
+                <h1>Clinical Imaging <span>and</span> Trials</h1>
+                <p>Radiant Sage’s solutions exemplify how IT can be leveraged <br> in clinical imaging trials to enable
+                    the smooth acquisition, <br> processing and delivery of information on a timely basis.</p>
 
                 <div class="home-scroll">
                     <a href="">
@@ -47,7 +47,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h3>RadiantSage connects people <br> and businesses through.</h3>
+                <h3>RadiantSage connects people <br> and businesses through technology.</h3>
             </div>
         </div>
         <div class="row">
@@ -61,14 +61,14 @@
                         </div>
                     </li>
                     <li>
-                        <img src="images/icon_customers.png">
+                        <img src="images/icon_results-icon.png">
                         <div class="home-numsection">
                             <p class="counter percentage">96</p>
                             <span>Results</span>
                         </div>
                     </li>
                     <li>
-                        <img src="images/icon_customers.png">
+                        <img src="images/icon_projects-icon.png">
                         <div class="home-numsection">
                             <p class="counter">9000</p>
                             <span>Projects Completed!</span>
@@ -294,8 +294,8 @@
                     <img class="w-100" src="images/career-opportunities.png">
                     <div class="career-caption">
                         <p class="career-title">Career opportunities</p>
-                        <p class="career-para">Innovative technology driven by talented people — and have fun along
-                            the way. Join
+                        <p class="career-para">Innovative technology driven by talented <br> people — and have fun along
+                            the way. <br> Join
                             us!</p>
                         <p><a class="career-join" href="">Join Our Team</a></p>
                     </div>
@@ -306,9 +306,9 @@
                     <img class="w-100" src="images/career-opportunities.png">
                     <div class="career-caption">
                         <p class="career-title">Let’s talk today</p>
-                        <p class="career-para">If you want to start a new project, we invite you to get in touch
-                            with us. We are all ears.</p>
-                        <p><a class="career-join" href="">Join Our Team</a></p>
+                        <p class="career-para">If you want to start a new project, we <br> invite you to get in touch
+                            with us. <br> We are all ears.</p>
+                        <p><a class="career-join" href="">Send an Enquiry</a></p>
                     </div>
                 </div>
             </div>
@@ -434,31 +434,7 @@
 <!-- end -->
 
 <!-- start -->
-<section class="connect-withus">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h6>Connect with us</h6>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-7">
-                <div class="connect-form">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address"
-                            aria-describedby="basic-addon2">
-                        <div class="input-group-append">
-                            <button class="btn" type="button">Sign Up</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <a href="">Contact us Today</a>
-            </div>
-        </div>
-    </div>
-</section>
+    <?php include('connect-withus.php');?>
 <!-- end -->
 
 <!-- start -->

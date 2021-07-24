@@ -27,7 +27,7 @@
 
 <body>
     <!-- start header -->
-    <header>
+        <header>
         <div class="dektop_menu">
             <div id="myNav" class="overlay_menu">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -49,10 +49,11 @@
                                         data-img-src="images/menu/products.png">Products</a>
                                     <ul class="submenu">
                                         <li><a href="core-lab-in-a-box.html">Core-LAB-in-a-BoxTM</a></li>
-                                        <li><a href="">RadClinica<sup>TM</sup></a></li>
-                                        <li><a href="">RadVista Viewer</a></li>
-                                        <li><a href="">Product Development Goals</a></li>
-                                        <li><a href="">Technology & Process Innovation</a></li>
+                                        <li><a href="radclinica.html">RadClinica<sup>TM</sup></a></li>
+                                        <li><a href="radvista-viewer.html">RadVista Viewer</a></li>
+                                        <li><a href="product-development-goals.html">Product Development Goals</a></li>
+                                        <li><a href="technology-process-innovation.html">Technology & Process
+                                                Innovation</a></li>
                                     </ul>
                                 </li>
 
@@ -60,8 +61,13 @@
                                         data-img-src="images/menu/services.png">Services</a></li>
                                 <li class="thumb"><a href="use-cases.html" data-img-src="images/menu/use_cases.png">Use
                                         cases </a></li>
-                                <li class="thumb"><a href="" data-img-src="images/menu/case_studies.png">Case
-                                        Studies</a></li>
+                                <li class="thumb need_submenu"><a href=""
+                                        data-img-src="images/menu/case_studies.png">Case Studies</a>
+                                    <ul class="submenu">
+                                        <li><a href="casestudy-dw-mining-migration.html">DW Mining Migration</a></li>
+                                        <li><a href="casestudy-site-vs-central.html">Site vs Central</a></li>
+                                    </ul>
+                                </li>
                                 <li class="thumb"><a href="" data-img-src="images/menu/news.png">News</a></li>
                                 <li class="thumb"><a href="" data-img-src="images/menu/contact.png">Contact us</a></li>
                             </ul>
@@ -95,9 +101,9 @@
                 <a href="" class="chat_box"><span><i class="fa fa-commenting-o"></i></span></a>
             </div>
         </div>
-        <!-- <div class="header dektop_menu">
+        <div class="header dektop_menu">
             <div class="logo"><a href="index.html"><img src="images/menu-logo.png"></a></div>
-        </div> -->
+        </div>
         <div class="mobile_menu">
             <button class="ma5menu__toggle btn" type="button">
                 <svg class="ma5menu__icon-toggle" aria-hidden="true" width="25" height="14">
@@ -129,15 +135,29 @@
                             </li>
                             <li data-ma5order="ma5-li-3-1"><a href="products.html">All Products</a></li>
                             <li data-ma5order="ma5-li-3-2"><a href="core-lab-in-a-box.html">Core-LAB-in-a-BoxTM</a></li>
-                            <li data-ma5order="ma5-li-3-3"><a href="">RadClinica<sup>TM</sup></a></li>
-                            <li data-ma5order="ma5-li-3-4"><a href="">RadVista Viewer</a></li>
-                            <li data-ma5order="ma5-li-3-5"><a href="">Product Development Goals</a></li>
-                            <li data-ma5order="ma5-li-3-6"><a href="">Technology & Process Innovation</a></li>
+                            <li data-ma5order="ma5-li-3-3"><a href="radclinica.html">RadClinica<sup>TM</sup></a></li>
+                            <li data-ma5order="ma5-li-3-4"><a href="radvista-viewer.html">RadVista Viewer</a></li>
+                            <li data-ma5order="ma5-li-3-5"><a href="product-development-goals.html">Product Development
+                                    Goals</a></li>
+                            <li data-ma5order="ma5-li-3-6"><a href="technology-process-innovation.html">Technology &
+                                    Process Innovation</a></li>
                         </ul>
                     </li>
                     <li data-ma5order="ma5-li-4"><a href="our-services.html">Services</a></li>
                     <li data-ma5order="ma5-li-5"><a href="use-cases.html">Use cases</a></li>
-                    <li data-ma5order="ma5-li-5"><a href="">Case Studies</a></li>
+                    <li data-ma5order="ma5-li-6">
+                        <span class="ma5menu__btn--enter ma5menu__category">Case Studies</span>
+                        <ul class="lvl-1" data-ma5order="ma5-ul-6">
+                            <li data-ma5order="ma5-li-6-1">
+                                <div class="ma5menu__leave"><span class="ma5menu__btn--leave"></span>Case Studies</div>
+                            </li>
+                            <li data-ma5order="ma5-li-6-1"><a href="casestudy-dw-mining-migration.html">DW Mining
+                                    Migration</a></li>
+                            <li data-ma5order="ma5-li-6-2"><a href="casestudy-site-vs-central.html">Site vs Central</a>
+                            </li>
+
+                        </ul>
+                    </li>
 
                     <li data-ma5order="ma5-li-7"><a href="">News</a></li>
                     <li data-ma5order="ma5-li-8"><a href="">Contact us</a></li>

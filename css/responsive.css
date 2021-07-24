@@ -1,3 +1,9 @@
+@media (min-width: 1200px) and (max-width: 1260px) {
+    .container {
+        max-width: 1080px;
+    }
+}
+
 @media (min-width: 1199.99px) {}
 
 @media (max-width: 1199.98px) {
@@ -137,6 +143,337 @@
     .faq_accordian .card .card-body .pl-5 {
         padding-left: 1rem !important;
     }
+
+    .cs_sec h3.fs-40 {
+        font-size: 24px !important;
+    }
+
+    .cs_sec h4.fs-24 {
+        font-size: 18px !important;
+    }
+
+    .cs_sec .desc.bg-light.p-5 {
+        padding: 15px !important;
+    }
+
+    .usecase_modal .modal-body h3 {
+        font-size: 30px;
+    }
+
+    .usecase_modal .modal-body {
+        padding: 2rem;
+    }
+
+}
+
+@media (max-width: 567px) {
+    .home-radiant {
+        padding: 30px 0;
+        min-height: 500px;
+    }
+
+    .home-radiant h2 {
+        font: normal normal normal 30px/30px Merriweather;
+    }
+
+    .home-radiant p {
+        font: normal normal normal 15px/22px Montserrat;
+    }
+
+    .home-connect {
+        padding: 30px 0;
+    }
+
+    .home-connect h3 {
+        font: normal normal 300 30px/40px Merriweather;
+    }
+
+    .home-connect .home-numbers {
+        flex-wrap: wrap;
+    }
+
+    .home-connect .home-numbers li {
+        width: calc(100% / 1);
+        flex-wrap: wrap;
+        margin: 0 0 30px 0;
+    }
+
+    .home-connect .home-numbers li img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .home-connect .home-numbers li span {
+        display: block;
+    }
+
+    .home-connect .home-numbers li p {
+        font-size: 50px;
+        line-height: initial;
+        margin: 0;
+        padding: 0;
+    }
+
+    .home-connect .percentage::after {
+        right: auto;
+    }
+
+    .home-connect .home-numsection {
+        width: 100%;
+        margin: 0;
+    }
+
+    .our-services .services-list li a {
+        font: normal normal normal 30px/50px Merriweather;
+    }
+
+    .our-services h4 {
+        margin: 44px 0 20px 0;
+    }
+
+    .our-services .services-list {
+        margin: 0 0 40px 0;
+    }
+
+    .feedback {
+        padding: 30px 0;
+    }
+
+    .feed-name-section p {
+        margin: 0;
+    }
+
+    .feedback-section .feed-image {
+        bottom: -27px;
+        width: 75px;
+        height: 75px;
+    }
+
+    .feed-height {
+        height: auto;
+    }
+
+    .feedback .feedback-section {
+        margin: 70px 0 0;
+    }
+
+    .feedback h5 {
+        transform: rotate(0deg) translate(60%, 10px);
+        font: normal normal normal 30px/40px Merriweather;
+    }
+
+    .respo-caption p {
+        font: normal normal normal 30px/30px Merriweather;
+    }
+
+    .review-latest {
+        padding: 30px 0;
+    }
+
+    .review-latest h6 {
+        font: normal normal normal 30px/30px Merriweather;
+    }
+
+    .review-latest ul li,
+    .review-latest ul li img {
+        width: 100%;
+    }
+
+    .review-latest ul li .review-caption {
+        left: -576px;
+    }
+
+    .home-career {
+        padding: 30px 0;
+    }
+
+    .home-career .career-caption .career-title {
+        text-align: left;
+        font: normal normal normal 30px/30px Merriweather;
+    }
+
+    .home-career .career-section {
+        margin: 0 0 30px 0;
+    }
+
+    .home-career .career-caption {
+        transform: translate(0, -40%);
+    }
+
+    .home-career .career-caption .career-para {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .home-career .career-caption .career-para br {
+        display: none;
+    }
+
+    .review-lproducts {
+        padding: 30px 0;
+    }
+
+    .review-lproducts h6 {
+        text-align: center;
+        font: normal normal normal 30px/40px Merriweather;
+    }
+
+    .connect-withus {
+        min-height: 300px;
+    }
+
+    .connect-withus h6 {
+        font: normal normal normal 30px/42px Merriweather;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+
+    .connect-withus a {
+        justify-content: center;
+        margin: 20px 0 0 0;
+    }
+
+    footer {
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    footer address {
+        margin: 30px auto;
+        width: 75%;
+    }
+
+    .home-clinical h1 {
+        font: normal normal normal 60px/65px Merriweather;
+    }
+
+    .home-clinical h1 span {
+        font: normal normal normal 60px/65px Merriweather;
+        position: relative;
+    }
+
+    .home-clinical {
+        height: 100vh;
+        min-height: initial;
+        position: relative;
+        background-size: 200%;
+        background-position: left top;
+    }
+
+    .home-clinical .logo {
+        display: none;
+    }
+
+    .aboutus-home {
+        height: 100%;
+        padding: 40px 0 0 0;
+    }
+
+    .aboutus-home h1 {
+        font: normal normal normal 30px/32px Merriweather;
+        margin: 0 0 30px 0;
+    }
+
+    .aboutus-home .about-para {
+        text-align: left;
+        font: normal normal normal 25px/30px Merriweather;
+        margin: 0 0 10px 0;
+    }
+
+    .aboutus-core {
+        padding: 30px 0;
+    }
+
+    .aboutus-core h3 {
+        font: normal normal normal 30px/35px Merriweather;
+    }
+
+    .about-core .our-list {
+        flex-wrap: wrap;
+    }
+
+    .about-core .our-list-para {
+        width: 100%;
+    }
+
+    .about-core .our-list-title h3 {
+        font: normal normal normal 30px/35px Merriweather;
+    }
+
+    .radiant-sage .radiant-sage-left {
+        width: 100%;
+    }
+
+    .radiant-sage .radiant-sage-right img {
+        position: relative;
+        width: 100% !important;
+        left: 0;
+        right: auto;
+        margin: 20px 0 0 0;
+        object-fit: none;
+    }
+
+    .radiant-sage .radiant-sage-section {
+        flex-wrap: wrap;
+    }
+
+    .history-right,
+    .history-left {
+        width: 100%;
+    }
+
+    .history-right.right {
+        left: 0;
+    }
+
+    .history-right,
+    .history-left {
+        margin: 0 0 30px 0;
+    }
+
+    .history-right h6,
+    .history-left h6,
+    .history-right p,
+    .history-left p,
+    .history-left.left h6,
+    .history-left.left p {
+        text-align: center;
+    }
+
+    .management-team {
+        padding: 30px 0;
+    }
+
+    .management-team h5 {
+        font: normal normal normal 30px/35px Merriweather;
+    }
+
+    .team-section {
+        flex-wrap: wrap;
+    }
+
+    .team-section img,
+    .team-section .team-details {
+        width: 100%;
+        margin: 0;
+    }
+
+    .team-section .team-details {
+        padding: 30px 20px;
+    }
+
+    .team-section .team-social {
+        width: auto;
+    }
+
+    .team-section .team-social ul {
+        display: flex;
+    }
+
+    .team-section .team-details .team-name {
+        font: normal normal bold 30px/35px Merriweather;
+    }
+
 }
 
 @media (max-width: 480px) {
